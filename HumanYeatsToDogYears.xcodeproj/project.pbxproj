@@ -14,6 +14,7 @@
 		506F68B91A4EDDF200591C94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 506F68B81A4EDDF200591C94 /* Images.xcassets */; };
 		506F68BC1A4EDDF200591C94 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 506F68BA1A4EDDF200591C94 /* LaunchScreen.xib */; };
 		506F68C81A4EDDF200591C94 /* HumanYeatsToDogYearsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506F68C71A4EDDF200591C94 /* HumanYeatsToDogYearsTests.swift */; };
+		506F68D21A4EDF7800591C94 /* Posta_Romana_-_1959_-_Laika_120_B.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 506F68D11A4EDF7800591C94 /* Posta_Romana_-_1959_-_Laika_120_B.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		506F68C11A4EDDF200591C94 /* HumanYeatsToDogYearsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumanYeatsToDogYearsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		506F68C61A4EDDF200591C94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		506F68C71A4EDDF200591C94 /* HumanYeatsToDogYearsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanYeatsToDogYearsTests.swift; sourceTree = "<group>"; };
+		506F68D11A4EDF7800591C94 /* Posta_Romana_-_1959_-_Laika_120_B.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Posta_Romana_-_1959_-_Laika_120_B.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				506F68B31A4EDDF200591C94 /* ViewController.swift */,
 				506F68B51A4EDDF200591C94 /* Main.storyboard */,
 				506F68B81A4EDDF200591C94 /* Images.xcassets */,
+				506F68D11A4EDF7800591C94 /* Posta_Romana_-_1959_-_Laika_120_B.jpg */,
 				506F68BA1A4EDDF200591C94 /* LaunchScreen.xib */,
 				506F68B01A4EDDF200591C94 /* HumanYeatsToDogYears.xcdatamodeld */,
 				506F68AC1A4EDDF200591C94 /* Supporting Files */,
@@ -198,6 +201,7 @@
 				506F68B71A4EDDF200591C94 /* Main.storyboard in Resources */,
 				506F68BC1A4EDDF200591C94 /* LaunchScreen.xib in Resources */,
 				506F68B91A4EDDF200591C94 /* Images.xcassets in Resources */,
+				506F68D21A4EDF7800591C94 /* Posta_Romana_-_1959_-_Laika_120_B.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
