@@ -31,5 +31,21 @@ class ViewController: UIViewController {
         dogAgeLabel.text = "Возраст собаки: \(Double((humanAgeInput.text as NSString).doubleValue) / conversionVal)"
     }
 
+    @IBAction func realDogAgeButtonPressed(sender: UIButton) {
+        humanAgeInput.resignFirstResponder()
+        dogAgeLabel.textColor = UIColor.brownColor()
+        
+        let conversionValUnderTwoYears = 3.5
+        let conversionValMoreThenTwoYears = 7.5
+        
+        let humanAge = Double((humanAgeInput.text as NSString).doubleValue)
+        
+        if (humanAge <= 2){
+            dogAgeLabel.text = "Возраст собаки: \(humanAge * conversionValUnderTwoYears)"
+        }
+        else {
+            dogAgeLabel.text = "Возраст собаки: \(humanAge * conversionValMoreThenTwoYears)"
+        }
+    }
 }
 
